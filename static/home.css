@@ -94,17 +94,17 @@ a{
 }
 .first-screen__info button:hover{
     background-color: #FFFFFF;
-    color: rgb(90, 90, 90);
-    border-color: rgb(90, 90, 90);
+    color: rgba(0, 91, 193, 0.8);
+    border-color: rgba(0, 91, 193, 0.8);
 }
 .projects{
     margin-top: 156px;
 }
-.projects__aboba{
+.aboba{
     display: flex;
     align-items: center;
 }
-.projects__aboba h3{
+.aboba h3{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -115,8 +115,146 @@ a{
     color: #343434;
     margin-left: 40px;
 }
-.projects__info{
+.info{
     margin-bottom: 70px;
+}
+.news{
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+.news__button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color: white; 
+    background-color: rgba(0, 91, 193, 1);
+    border: 2px solid rgba(0, 91, 193, 1);
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+.news__button:hover{
+    background-color: white;
+    color: rgba(0, 91, 193, 1);
+}
+.news__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__card-big{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    
+}
+.news__card-big img{
+    width: 255px;
+    margin-right: 30px;
+}
+.big-card-info div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+.big-card-info a{
+    margin-top: 21px;
+}
+.big-card-info h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+.big-card-info p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #979797;
+
+}
+.big-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.big-card-info a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #343434;
+}
+.big-card-info p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+.news__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__card-little{
+    width: 225px;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.news__card-little:first-child{
+    margin-right: 60px;
+}
+.news__card-little:last-child h3{
+    width: 100px;
+}
+.news__card-little div{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.news__card-little p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.news__card-little h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.little-card-img{
+    width: 128px;
 }
 .footer{
     height: 255px;
