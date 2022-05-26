@@ -11,10 +11,10 @@
 li{
     list-style: none;
 }
-a{
+
+h3, a{
     text-decoration: none;
 }
-
 .first-screen{
     background-image: url(../imges/first-screet.png);
     height: 800px;
@@ -100,11 +100,37 @@ a{
 .projects{
     margin-top: 156px;
 }
-.aboba{
+.projects__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projects__button{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border: 2px solid rgba(0, 91, 193, 1);
+    cursor: pointer;
+}
+.projects__button:first-child{
+    margin-right: -2px;
+}
+.button-displ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-projects{
     display: flex;
     align-items: center;
 }
-.aboba h3{
+.our-projects h3{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -115,6 +141,64 @@ a{
     color: #343434;
     margin-left: 40px;
 }
+.project-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-card{
+    width: 540px;
+    height: 400px;
+    margin-top: 65px;
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+.project-card__box{
+    width: 250px;
+    height: 110px;
+    background-color: white;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-card__box h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+.project-card__box p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+.project-card__box div{
+    width: 200px;
+}
+.olimp1{
+    background-image: url(../imges/olimp.png);
+    background-size: 100%;
+    margin-left: 30px;
+}
+.olimp{
+    background-image: url(../imges/olimp2.png);
+    background-size: 100%;
+    
+}
+
 .info{
     margin-bottom: 70px;
 }
@@ -137,6 +221,31 @@ a{
     border: 2px solid rgba(0, 91, 193, 1);
     cursor: pointer;
     transition: all 0.4s ease;
+
+}
+.catalog{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.catalog-buttons{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catalog-buttons p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #005BC1;
+    margin-right: 47px;
+    border-bottom:2px solid #005BC1;
 
 }
 .news__button:hover{
@@ -164,9 +273,6 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 42px;
-}
-.big-card-info a{
-    margin-top: 21px;
 }
 .big-card-info h3{
     font-family: 'Oswald';
@@ -338,4 +444,13 @@ a{
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
+}
+.img-a{
+    cursor: pointer;
+}
+.news__card-little > div >p{
+    margin: 0;
+}
+.chitat{
+    margin-top: 21px;
 }
