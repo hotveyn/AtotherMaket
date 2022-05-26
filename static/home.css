@@ -293,19 +293,137 @@ h3, a{
     background-size: 100%;
 }
 .contr{
-    background-image:url(../imges/conrtoller.png);
+    background-image:url(../imges/controll.png);
     background-size: 100%;
 }
 .tri{
-    background-image:url(../imges/trinket.png);
+    background-image:url(../imges/trinket1.png);
     background-size: 100%;
 }
 .news__button:hover{
     background-color: white;
     color: rgba(0, 91, 193, 1);
 }
-.catalog-card__blue{
+.rent {
+    margin-bottom: 100px;
+}
 
+.rent__content {
+    display: flex;
+    align-items: center;
+}
+
+.rent__desc {
+    width: 35%;
+}
+
+.rent__text {
+    /* p.text */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* black */
+
+    color: #343434;
+}
+
+.rent__equip {
+    width: 65%;
+    padding: 30px;
+    border: 3px solid #005BC1;
+    margin-left: 95px;
+}
+
+.rent__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rent-title {
+    /* h4 */
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #343434;
+}
+
+.equip__content {
+    display: flex;
+    margin-top: 30px;
+}
+.equip__wrapper{
+    width: 255px;
+    border: 0;
+}
+.equip__img {
+    object-fit: contain;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.equip__title {
+    margin-left: 10px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #343434;
+}
+
+.equip__list {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.equip__item {
+    /* p.small-text */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    /* black */
+    color: #343434;
+    margin-bottom: 20px;
+}
+.rent-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.rent-info h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 40px;
 }
 .news__info{
     display: flex;
